@@ -1,9 +1,9 @@
 using LojaProdutos.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LojaProdutos.EntityConfig
+namespace LojaProdutos.Contexto
 {
-    public class LojaContext : DbContext
+    public class LojaContexto : DbContext
     {
         public DbSet<Produto> Produtos { get; set;}
 
