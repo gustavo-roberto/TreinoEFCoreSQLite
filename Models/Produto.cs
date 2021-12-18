@@ -9,5 +9,10 @@ namespace LojaProdutos.Models
 
         public double Preco { get; set; }
 
+        public override string ToString()
+        {
+            return "Id: " + this.Id + "\nNome: " + Nome + "\nPreco: " + Preco + "\n";
+        }
+
     }
 }
